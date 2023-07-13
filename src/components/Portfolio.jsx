@@ -62,7 +62,7 @@ const Portfolio = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Portfolio
           </p>
-          <p className="py-6">These some of the mini-javascript / UI projects :</p>
+          <p className="py-6">Some of the mini-javascript / UI projects :</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 my-100">
           {portfolios.map(({ id, src, title, link, code }) => (

@@ -15,7 +15,7 @@ const Home = () => {
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I am fueled by a love for reading and a deep desire to create exceptional user experiences. 
+            I am Sunny Jain. I am fueled by a love for reading and a deep desire to create exceptional user experiences. 
             Currently, I am immersing myself in the captivating world of UI designing.
           </p>
 
