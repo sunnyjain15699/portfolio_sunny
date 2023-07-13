@@ -2,11 +2,9 @@ import React from "react";
 
 const Contact = () => {
   return (
-  <div>
-    <div className="bg-gradient-to-b from-black to-black p-4 text-white"></div>
     <div
       name="contact"
-      className="w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white"
+      className="w-full h-auto bg-gradient-to-b from-black to-gray-800 p-4 text-white"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
@@ -15,7 +13,7 @@ const Contact = () => {
           </p>
           <p className="py-6">Submit the form below to get in touch with me</p>
         </div>
-        <div className=" flex justify-center items-center">
+        <div className=" from-black to-black h-full flex justify-center items-center">
           <form
             action="#"
             method="POST"
@@ -46,8 +44,6 @@ const Contact = () => {
           </form>
         </div>
       </div>
-    </div>
-    <div className="bg-gradient-to-b from-gray-800 to-gray-600 p-4 text-white"></div>
     </div>
   );
 };
